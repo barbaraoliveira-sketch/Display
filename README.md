@@ -1,42 +1,39 @@
-# Estudo da Propriedade Display em CSS
+# Estudo de CSS Display
 
-> Um projeto prático desenvolvido para compreender, testar e visualizar o comportamento dos diferentes valores da propriedade **`display`** no CSS.
+Projeto desenvolvido para estudar a propriedade **`display`** do CSS e entender como seus diferentes valores afetam o comportamento e o posicionamento dos elementos HTML.
 
----
+## 🎯 Objetivo
 
-## 🚀 Sobre o Projeto
+Praticar e visualizar os principais tipos de `display`, entendendo quando e por que utilizar cada um.
 
-Este repositório foi criado com o objetivo de servir como um guia visual e prático para o estudo da propriedade **`display`** do CSS. Através de exemplos comentados e estruturas dedicadas, o projeto explora como os elementos HTML se comportam no fluxo do documento e como podemos manipular o seu posicionamento e layout.
+## 📚 Displays estudados
 
-Os principais conceitos abordados são:
-* **`display: none`**: Oculta o elemento completamente da página (removendo-o do fluxo).
-* **`display: block`**: Ocupa toda a largura disponível e quebra linha antes e depois.
-* **`display: inline`**: Ocupa apenas o espaço necessário pelo seu conteúdo e não aceita altura/largura personalizadas.
-* **`display: inline-block`**: Permite o comportamento em linha, mas mantendo propriedades de bloco (como altura, largura e margens).
-* **`display: flex`**: O poderoso modelo de layout Flexible Box para alinhamentos complexos e responsivos.
+- `block` — o elemento ocupa toda a largura disponível e inicia em uma nova linha.
+- `inline` — o elemento permanece na mesma linha e ocupa apenas o espaço necessário.
+- `inline-block` — combina características de `inline` e `block`, permitindo definir dimensões.
+- `flex` — facilita a criação de layouts e o alinhamento de elementos.
+- `grid` — permite criar layouts baseados em linhas e colunas.
+- `none` — remove o elemento do fluxo de renderização da página.
 
----
+## 🛠️ Tecnologias
 
-## 🛠️ Tecnologias Utilizadas
+- HTML5
+- CSS3
 
-As seguintes linguagens e tecnologias foram utilizadas no desenvolvimento:
+## 🚀 Como executar
 
-* **HTML5**: Estruturação dos elementos e marcação semântica.
-* **CSS3**: Estilização e aplicação dos diferentes tipos de `display`.
-* **Git & GitHub**: Controle de versão e hospedagem do repositório.
+Clone o repositório e abra o arquivo index.html no navegador:
 
----
+git clone https://github.com/icneto603/display_TB.git
 
-## 📥 Como Clonar o Projeto
+Depois, abra o index.html.
 
-Para baixar e executar este projeto em sua máquina local, siga os passos abaixo:
+## 📌 Sobre o projeto
 
-### Pré-requisitos
-Certifique-se de ter o **Git** instalado em seu computador.
+Este projeto faz parte dos meus estudos de HTML e CSS, com foco em compreender, na prática, como diferentes valores da propriedade display influenciam o layout e o comportamento dos elementos.
 
-### Passo a passo
+```bash
+git clone https://github.com/icneto603/display_TB.git
 
-1. Abra o seu terminal (CMD, PowerShell, Git Bash ou terminal do VS Code).
-2. Navegue até o diretório onde deseja salvar o projeto:
-   ```bash
-   cd caminho/para/sua/pasta
+
+

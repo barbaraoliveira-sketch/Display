@@ -1,99 +1,116 @@
-/* reset dos elementos */
+/* Reset padrão */
 
-    *{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
-    color: #d684d6;
-    }
+   
+}
 
 html{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-family: Verdana, sans-serif;
 }
 
 .container{
+    background-color: #2c2c2c;
     width: 300px;
     height: 300px;
-    background-color: #ecdede;
-    color: #d684d6;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
 }
+
 
 .body-container{
-    background-color: aliceblue;
+
+    background-color: rgb(245, 187, 242);
+
 }
 
-.header-container{
+
+
+
+
+.header-container {
+    display: flex;
     width: 100%;
-    height: 80px;
-    background-color: #fdd5fd;
-    text-align: center;
+    height: 100px;
+    background-color: darkgray;
+   
+   
+    
 }
 
-.header-container a{
-
+.header-container a {
     display: inline-block;
-   background-color: rgb(241, 115, 218);
-   text-decoration: none;
-   font-size: x-large;
-   color: #000000;
-
-   margin-top: 10px;
-   margin-left: 15px;
-
-   padding: 10px 15px 15px;
-
-   border-width: 2px;
-   border-style: solid;
-   border-color: #a105a1;
-
-   border-radius: 20px;
+    background-color: rgb(196, 70, 170);
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: x-large;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 10px;
+    
+  
 }
-
-/* pseudo classe que detecta o moimento do mouse */
+/* Pseudo classe que identifica a posição do cursor do mouse */
 .header-container a:hover{
-    border-color: #f5f0f5;
+
+    background-color: rgb(253, 213, 244);
+    border: 2px solid rgb(184, 0, 153);
+    color: #0f0000;
 
 }
 
 .logo{
     
-    width: 30px;
-    height: 80px;
-    background-color: #000000
-    color blue;
+    
+    width: 30%;
+    height: 100px;
+    background-color: rgb(172, 93, 152);
+    color: #fff;
+    
+
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(51, 0, 44);
 }
 
 .section01{
-
+   display: none;
     width: 400px;
-    height: 400px;
-    border: 2px solid #f0b4f0;
-    margin-top: 15px;
-    margin: auto;
-    padding-left: 25px;
+    height: 200px;
+    margin: 10px auto;
+    padding-left: 20px;
+    background-color: blueviolet;
+    color: #fff;
+    border: black dashed 3px;
+    
+ }
 
-}
-.section01 h1{
-    margin-top: 10px;
-    text-align: center;
+
+ .section01--title{
+    margin-bottom: 10px;
 }
 
-.item-lista{
+.link-lista{
+    
+    font-size: medium;
     line-height: 30px;
-    margin-top: 15px;
-    color: rgb(0, 53, 35);
+    
 }
 
-.section02{
-    line-height: 15px;
-    text-align: justify;
-    padding: 10px;
-    margin-left: 35px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
 
-.section02 p{
-    font-family: monospace;
-    color: #050505;
-}
+
+
+/* Display none: não aparece na tela
+Diplay inline: elementos são em linhas 
+não aceita largura e altura (ocupa apenas o seu espaço)
+Display block: elementos são um abaixo do outro
+aceita largura e altura (ocupa linha inteira)
+Display inline-block: elementos em linha + largura e altura */

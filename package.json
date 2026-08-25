@@ -1,20 +1,18 @@
 {
-  "name": "display",
+  "name": "display_tb",
   "version": "1.0.0",
-  "description": "Estudos para utilizar o display do CSS",
+  "description": "Estudos dobre HTML e CSS display",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "endereço http"
-  },
   "keywords": [
-    "html",
+    "hmtl",
     "css",
-    "display"
+    "display",
+    "classes"
   ],
-  "author": "Barbara",
+  "github":"https://github.com/icneto603/display_TB.git",
+  "author": "Ivo",
   "license": "ISC"
 }
