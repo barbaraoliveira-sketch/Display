@@ -83,7 +83,7 @@
 
     /* faz co que 6 colunas dividam igualmente o espaço restante */
     flex-grow: 1;
-    height: 100%;
+    height: 50%;
     /* efeito de transição suave */
     transition: transform 0.25s ease;
 
@@ -97,4 +97,6 @@
     box-shadow: 0 0 30px rgba(51, 50, 50, 0.3);
 
 }
+
+
 
