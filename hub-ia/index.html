@@ -9,20 +9,62 @@
     <!-- a partir de 480px coloca cor verde -->
     <style> 
 
-        body{background-color: blueviolet;}
-        
-        @media(min-width: 768px){
-           body {
-           background-color: rgb(214, 6, 204);
-         }
-       }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
 
-        @media(min-width: 480px){
-    body {
-    background-color: lightgreen;
-  }
+        }
+
+        body{
+            padding: 20px;
+            background-color: olive;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        h1{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .container{
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .box{
+           
+            max-width: 400px;
+            height: 200px;
+            background-color: black;
+        }
+
+       
+        /* For devices with a minimum width of 768px (Medium) */
+        @media screen and (min-width: 768px) {
+        body {
+            background-color: blue;
+            color: white;
+
+            
+        } 
+        .box {
+            width: 356px;
+        }
+
 }
 
+        /* For devices with a minimum width of 992px (Large) */
+        @media screen and (min-width: 992px) {
+        body {
+            background-color: tan;
+            color: black;
+
+        }
+}
     </style>
 
     <link rel="stylesheet" href="./css/style.css">
@@ -30,6 +72,15 @@
 
 </head>
 <body>
+    <h1>Este é um teste de @media</h1>
+
+    <div class="container">
+        
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
 
     
 </body>
